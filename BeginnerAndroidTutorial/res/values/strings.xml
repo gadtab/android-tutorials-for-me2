@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Beginner Android Tutorial</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello">Hello, This is my Android Tutorial</string>
+    <string name="button1">Radio Buttons</string>
+    <string name="button2">List View</string>
+    <string name="button3">Choose Background</string>
+    <string name="button4">Custom View Example</string>
+    <string name="button5">Surface View Example</string>
+    <string name="button6">VideoView Example</string>
+    <string name="button7">Tutorial 7</string>
+    <string name="button8">Tutorial 8</string>
+    <string name="button9">Tutorial 9</string>
+    <string name="title_activity_menu">Beginner Android Tutorial</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_tutorial_one">Tutorial One Activity</string>
+    <string name="style">Style</string>
+    <string name="gravity">Gravity</string>
+    <string name="normal">Normal</string>
+    <string name="italic">Italic</string>
+    <string name="bold">Bold</string>
+    <string name="left">Left</string>
+    <string name="center">Center</string>
+    <string name="right">Right</string>
+    <string name="tv_change">Type in text and press the button below</string>
+    <string name="generate_button">Generate</string>
+    <string name="title_activity_sweet">Sweet Activity</string>
+    <string name="action_open_sweet_activity">Open Sweet Activity</string>
+    <string name="action_open_toast">Open Toast</string>
+    <string name="about">This is the about message: kxjdflskgksdjsdkjfhlakfhlakghlkghlakfhlafh dsfsdfsd sdfkns,dgnsdkfnm.,sdkfn,.dkh;skldgh</string>
+    <string name="title_activity_list_view">List View Activity</string>
+    <string name="title_activity_background">Background Activity</string>
+    <string name="bg_description">The Image to be in the background</string>
+    <string name="bg_button">Set Image to Background</string>
+    <string name="title_activity_custom_view_tutorial">CustomView Tutorial Activity</string>
+    <string name="title_activity_surface_view">SurfaceView Activity</string>
+    <string name="title_activity_video_view_tutorial">VideoView Tutorial Activity</string>
+
+</resources>

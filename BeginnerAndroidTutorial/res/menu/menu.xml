@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menuSweet"
+        android:alphabeticShortcut="s"
+        android:title="@string/action_open_sweet_activity"/>
+    <item
+        android:id="@+id/menuToast"
+        android:alphabeticShortcut="t"
+        android:title="@string/action_open_toast"/>
+
+</menu>

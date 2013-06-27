@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivBackground"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/bg_description"
+        android:src="@drawable/back_clouds_picture" />
+
+    <Button
+        android:id="@+id/btnSetBackground"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="@string/bg_button" />
+
+    <HorizontalScrollView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/ivImage1"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:contentDescription="@string/bg_description"
+                android:padding="15dp"
+                android:src="@drawable/back_clouds_picture" />
+
+            <ImageView
+                android:id="@+id/ivImage2"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:contentDescription="@string/bg_description"
+                android:padding="15dp"
+                android:src="@drawable/back_dog_animal" />
+
+            <ImageView
+                android:id="@+id/ivImage3"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:contentDescription="@string/bg_description"
+                android:padding="15dp"
+                android:src="@drawable/back_engine_photo" />
+
+            <ImageView
+                android:id="@+id/ivImage4"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:contentDescription="@string/bg_description"
+                android:padding="15dp"
+                android:src="@drawable/back_flowers_image" />
+
+            <ImageView
+                android:id="@+id/ivImage5"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:contentDescription="@string/bg_description"
+                android:padding="15dp"
+                android:src="@drawable/back_forest_wood" />
+<!--
+            <ImageView
+                android:id="@+id/ivImage6"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:contentDescription="@string/bg_description"
+                android:padding="15dp"
+                android:src="@drawable/back_fruits_picture" />
+
+            <ImageView
+                android:id="@+id/ivImage7"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:contentDescription="@string/bg_description"
+                android:padding="15dp"
+                android:src="@drawable/back_lake_tree" />
+
+            <ImageView
+                android:id="@+id/ivImage8"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:contentDescription="@string/bg_description"
+                android:padding="15dp"
+                android:src="@drawable/back_logs_picture" />
+
+            <ImageView
+                android:id="@+id/ivImage9"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:contentDescription="@string/bg_description"
+                android:padding="15dp"
+                android:src="@drawable/back_sculpture_photo" />
+
+            <ImageView
+                android:id="@+id/ivImage10"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:contentDescription="@string/bg_description"
+                android:padding="15dp"
+                android:src="@drawable/back_stones_background" />
+ 
+            <ImageView
+                android:id="@+id/ivImage11"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:contentDescription="@string/bg_description"
+                android:padding="15dp"
+                android:src="@drawable/back_sunshades" />
+
+            <ImageView
+                android:id="@+id/ivImage12"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:contentDescription="@string/bg_description"
+                android:padding="15dp"
+                android:src="@drawable/back_tree_winter" />  -->
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="il.co.gadiworks.beginnerandroidtutorial"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/gadiworks_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="il.co.gadiworks.beginnerandroidtutorial.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="il.co.gadiworks.beginnerandroidtutorial.MenuActivity"
+            android:label="@string/title_activity_menu" >
+            <intent-filter>
+                <action android:name="il.co.gadiworks.beginnerandroidtutorial.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="il.co.gadiworks.beginnerandroidtutorial.RadioButtonsActivity"
+            android:label="@string/title_activity_tutorial_one" >
+            <intent-filter>
+                <action android:name="il.co.gadiworks.beginnerandroidtutorial.RADIOBUTTONS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="il.co.gadiworks.beginnerandroidtutorial.SweetActivity"
+            android:label="@string/title_activity_sweet"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="il.co.gadiworks.beginnerandroidtutorial.SWEET" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="il.co.gadiworks.beginnerandroidtutorial.ListViewActivity"
+            android:label="@string/title_activity_list_view" >
+            <intent-filter>
+                <action android:name="il.co.gadiworks.beginnerandroidtutorial.LISTVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="il.co.gadiworks.beginnerandroidtutorial.BackgroundActivity"
+            android:label="@string/title_activity_background"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="il.co.gadiworks.beginnerandroidtutorial.BACKGROUND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="il.co.gadiworks.beginnerandroidtutorial.CustomViewTutorialActivity"
+            android:label="@string/title_activity_custom_view_tutorial" >
+            <intent-filter>
+                <action android:name="il.co.gadiworks.beginnerandroidtutorial.CUSTOMVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="il.co.gadiworks.beginnerandroidtutorial.SurfaceViewActivity"
+            android:label="@string/title_activity_surface_view" >
+            <intent-filter>
+                <action android:name="il.co.gadiworks.beginnerandroidtutorial.SURFACEVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="il.co.gadiworks.beginnerandroidtutorial.VideoViewTutorialActivity"
+            android:label="@string/title_activity_video_view_tutorial" >
+            <intent-filter>
+                <action android:name="il.co.gadiworks.beginnerandroidtutorial.VIDEOVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
